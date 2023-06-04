@@ -63,3 +63,5 @@ TARGET_ENABLE_BLUR := true
 # Official
 RISING_MAINTAINER := Lord Itachi
 
+$(call inherit-product, hardware/dolby/dolby.mk)
+
