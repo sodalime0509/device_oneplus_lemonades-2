@@ -16,12 +16,12 @@ git clone --depth=1 https://github.com/RisingOSS-devices/vendor_oneplus_sm8250-c
 echo 'Cloning Kernel tree [4/6]'
 # Kernel Tree
 rm -rf kernel/oneplus
-git clone --depth=1 https://github.com/HELLBOY017/kernel_oneplus_sm8250.git kernel/oneplus/sm8250
+git clone --depth=1 https://github.com/RisingOSS-devices/kernel_oneplus_sm8250.git kernel/oneplus/sm8250
 
 echo 'Cloning Hardware Oplus [5/6]'
 # Hardware Oplus
 rm -rf hardware/oplus
-git clone --depth=1 https://github.com/RisingOSS-devices/hardware-oplus.git -b rising13  hardware/oplus
+git clone --depth=1 https://github.com/Evolution-X-Devices/hardware_oplus.git  hardware/oplus
 
 echo 'Cloning Op Cam [6/6]'
 # Op Cam
