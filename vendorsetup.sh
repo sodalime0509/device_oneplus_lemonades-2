@@ -21,7 +21,7 @@ git clone --depth=1 https://github.com/RisingOSS-devices/kernel_oneplus_sm8250.g
 echo 'Cloning Hardware Oplus [5/6]'
 # Hardware Oplus
 rm -rf hardware/oplus
-git clone --depth=1 https://github.com/Evolution-X-Devices/hardware_oplus.git  hardware/oplus
+git clone --depth=1 https://github.com/RisingOSS-devices/hardware-oplus.git  hardware/oplus
 
 echo 'Cloning Op Cam [6/6]'
 # Op Cam
